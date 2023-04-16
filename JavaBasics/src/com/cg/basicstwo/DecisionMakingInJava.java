@@ -9,6 +9,7 @@ public class DecisionMakingInJava {
 		int numOne= 10;
 		int numTwo=20;
 		int numThree=30;
+		
 		if(numOne >numTwo){
 			if(numOne >numThree)
 				System.out.println(numOne + " is largest");
@@ -24,9 +25,10 @@ public class DecisionMakingInJava {
 			System.out.println("Both "+numOne+" and "+numTwo+" are same" );
 			if(numOne>numThree)
 				System.out.println(numOne+" and "+numTwo+" are equal and greater than "+ numThree);
-			else
+			else if(numThree>numOne)
 				System.out.println(numOne+" and "+numTwo+" are equal and smaller than "+ numThree);
-			
+			else
+				System.out.println("All numbers are equal");
 		}
 	}
 
