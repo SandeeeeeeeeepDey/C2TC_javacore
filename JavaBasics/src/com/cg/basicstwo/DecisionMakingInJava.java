@@ -27,7 +27,7 @@ public class DecisionMakingInJava {
 			else
 				System.out.println(numOne+" and "+numTwo+" are equal and smaller than "+ numThree);
 			
-
+		}
 	}
 
 }
