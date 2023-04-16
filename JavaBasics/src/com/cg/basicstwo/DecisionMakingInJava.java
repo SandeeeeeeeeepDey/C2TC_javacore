@@ -34,6 +34,11 @@ public class DecisionMakingInJava {
 			else
 				System.out.println("All numbers are equal");
 		}
+		
+			// When if-else statements are inside other if-else statements, it is called "Nested if=else". 
+			// Like in the example above.
+		
+				
 	}
 
 }
