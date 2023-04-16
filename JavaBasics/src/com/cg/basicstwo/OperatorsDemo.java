@@ -3,7 +3,7 @@ package com.cg.basicstwo;
 public class OperatorsDemo {
 
 	public static void main(String[] args) {
-		// Arithmetic operators are 
+		// Arithmetic operators:
 		// +,-,*(multiplication),/(division),%(modulo operators outputs the reminders)
 		
         // Assignment Operators:
