@@ -13,14 +13,18 @@ public class DecisionMakingInJava {
 		if(numOne >numTwo){
 			if(numOne >numThree)
 				System.out.println(numOne + " is largest");
-			else
+			else if(numOne<numThree)
 				System.out.println(numThree + " is largest");
+			else
+				System.out.println("Both "+numOne+" and "+numThree+" are equal and larger than "+numTwo);
 		}else if(numTwo>numOne)
 		{
 			if(numTwo >numThree)
 				System.out.println(numTwo + " is largest");
-			else
+			else if(numTwo <numThree)
 				System.out.println(numThree + " is largest");
+			else
+				System.out.println("Both "+numTwo+" and "+numThree+" are equal and larger than "+numOne);
 		}else {
 			System.out.println("Both "+numOne+" and "+numTwo+" are same" );
 			if(numOne>numThree)
