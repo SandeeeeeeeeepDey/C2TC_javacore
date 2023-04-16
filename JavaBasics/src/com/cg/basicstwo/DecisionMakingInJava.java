@@ -3,7 +3,7 @@ package com.cg.basicstwo;
 public class DecisionMakingInJava {
 
 	public static void main(String[] args) {
-		// There are Three ways to do decision making in Java: if-else, switch statements and forEach
+		// There are of Two ways to do decision making in Java: if-else and switch statements 
 		
 		//If-else 
 		int numOne= 10;
