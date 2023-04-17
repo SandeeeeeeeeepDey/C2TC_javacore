@@ -21,7 +21,24 @@ public class ConstructorDemoDefaultTypeExample {
 		
 		System.out.println("defaultObjectSetOne \""+ defaultObjectSetOne+"\"");
 		System.out.println("defaultObjectSetTwo \""+ defaultObjectSetTwo+"\"");
+		
 
+	}
+
+	public String getDefaultObjectSetOne() {
+		return defaultObjectSetOne;
+	}
+
+	public void setDefaultObjectSetOne(String defaultObjectSetOne) {
+		this.defaultObjectSetOne = defaultObjectSetOne;
+	}
+
+	public int getDefaultObjectSetTwo() {
+		return defaultObjectSetTwo;
+	}
+
+	public void setDefaultObjectSetTwo(int defaultObjectSetTwo) {
+		this.defaultObjectSetTwo = defaultObjectSetTwo;
 	}
 
 	
