@@ -5,6 +5,7 @@ public class LoopsforEachLoop {
 	public static void main(String[] args) {
 		// forEach loops
 		// this loop iterates for each of the elements in a given range of elements from index one to length-1
+		// form of forEach loop: for("datatype" "name": "range"){start}
 		// example:
 		String[] animals= {"Hamster", "Dog", "Cat", "Whale", "Platypus"};
 		for(String animal:animals){
