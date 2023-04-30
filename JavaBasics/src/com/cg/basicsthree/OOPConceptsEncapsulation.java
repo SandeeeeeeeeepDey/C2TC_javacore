@@ -10,7 +10,7 @@ public class OOPConceptsEncapsulation {
 		// it also makes the code look clean, reusable and easily maintainable.
 		// To use an encapsulated class, we can make an instance of that class using their fields in constructors 
 		// or methods in order to access them or use them. 
-		// there are  ways to use them call by reference and pass by methods
+		// there are ways to use them call by reference, pass by methods and fully qualified method(if in other package).
 		int myInteger;
 		String myString;
 		
