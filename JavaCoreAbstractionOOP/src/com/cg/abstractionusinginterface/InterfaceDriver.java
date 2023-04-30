@@ -1,4 +1,4 @@
-// Program to demonstrate interface
+// Program to demonstrate interface and how diamond inheritance is possible in java using interface.
 package com.cg.abstractionusinginterface;
 // More about instance is InterfaceDriver this class.
 public class InterfaceDriver{ 
