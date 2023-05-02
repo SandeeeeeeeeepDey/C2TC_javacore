@@ -22,6 +22,7 @@ public class InterfaceDriver{
 		 													// Inherits 'groom' from either poodle or golden retriever.
 		 System.out.println("---------------------------------------------------------------------");
 		 Poodle poodleG=new Goldendoodle(p); // Poodle from Goldendoodle. // Has extra 'groom' property.
+		 p.breed();
 		 System.out.println("---------------------------------------------------------------------");
 		 GoldenRetriever goldenRetriever=new Goldendoodle(g); // Golden Retriever. // Has extra 'groom' property.
 		 System.out.println("---------------------------------------------------------------------");
@@ -58,5 +59,8 @@ public class InterfaceDriver{
 
 }// only public, private, abstract, default, static and strictfp are permitted
 
- 
+ // abstract -> abstract => extends.
+ // Interface -> Interface => extends.
+ // Interface -> abstract => implements.
+ // abstract -> Interface => Not Allowed by java.
  

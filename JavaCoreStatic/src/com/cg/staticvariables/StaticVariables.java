@@ -9,7 +9,7 @@ public class StaticVariables {
 		
 		// Example: 
 		// Here the base and sweetener is of ice-cream remains unchanged. 
-		// ie. Milk and Sugar respectively, only the flavor changes.
+		// ie. Milk and Sugar respectively, only the flavor changes. Refer to the IceCream class.
 		IceCream chocolate=new IceCream("Chocolate");
 		IceCream strawberry=new IceCream("Strawberry");
 		IceCream vanilla=new IceCream("Vanilla");

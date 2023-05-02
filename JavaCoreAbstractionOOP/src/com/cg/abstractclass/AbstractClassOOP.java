@@ -6,6 +6,11 @@
 // eg. Function of the power button: When off- Power button turns on,
 								   //When on- Power button turns off.
 package com.cg.abstractclass;
+// Abstraction is mainly used to hide the the underlying implementation and to only show the functionality of the program.
+// It is used to make a general class that can be used to keep modularity throughout children.
+// eg. the power button of a device may perform a set of function to turn off a device, but all the user should see is that it:
+// turns on the device if off, and vice versa.
+
 // When abstract keyword is introduced in a class:
 // The class can not be instantiated.
 // The class can have abstract methods, static methods and non-abstract methods.

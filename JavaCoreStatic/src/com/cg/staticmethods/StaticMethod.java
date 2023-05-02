@@ -25,8 +25,8 @@ public class StaticMethod {
 //		Output:
 //		I am a print from non static method
 //		I am a print from another non static method
-//		By using the instance variable in a print method 50
-//		By using the instance variable in a in return statement 100
+//		Length is 50
+//		Breadth is 100
 	}
 
 }
