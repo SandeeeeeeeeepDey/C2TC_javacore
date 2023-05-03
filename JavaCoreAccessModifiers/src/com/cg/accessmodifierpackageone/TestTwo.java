@@ -1,5 +1,6 @@
 package com.cg.accessmodifierpackageone;
-
+//within class inside same package.
+//default, protected and default.
 public class TestTwo {
 
 	public static void main(String[] args) {

@@ -1,7 +1,8 @@
 package com.cg.accessmodifierpackagetwo;
 
-import com.cg.accessmodifierpackageone.TestOne;
-
+import com.cg.accessmodifierpackageone.TestOne;// Need to import package
+//Within class inside other package.
+//public.
 public class TestFour {
 	
 	

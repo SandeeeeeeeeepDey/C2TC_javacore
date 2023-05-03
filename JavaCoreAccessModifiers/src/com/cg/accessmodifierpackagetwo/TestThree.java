@@ -1,7 +1,8 @@
 package com.cg.accessmodifierpackagetwo;
 
-import com.cg.accessmodifierpackageone.TestOne;
-
+import com.cg.accessmodifierpackageone.TestOne; // Need to import package.
+//within subclass in other package
+//protected and public.
 public class TestThree extends TestOne {
 
 	public static void main(String[] args) {

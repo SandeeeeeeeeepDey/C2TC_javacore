@@ -1,5 +1,6 @@
 package com.cg.accessmodifierpackageone;
-
+// Inside class
+// private, default, protected and default.
 public class TestOne {
 	private String privateVar="I am a Private String";
 	String defaultVar="I am a Default String";
