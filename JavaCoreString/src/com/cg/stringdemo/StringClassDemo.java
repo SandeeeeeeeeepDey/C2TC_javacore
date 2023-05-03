@@ -1,3 +1,4 @@
+package com.cg.stringdemo;
 
 // Program to demonstrate non-primitive data type, String.
 public class StringClassDemo {
