@@ -18,7 +18,7 @@ class ExtentionOfEctendedAbstract extends AbstractMethod{
 
 	@Override
 	public void nFour() {
-		// TODO Auto-generated method stub
+		// calling this method form AbstractClassOOp class
 		
 	}
 
