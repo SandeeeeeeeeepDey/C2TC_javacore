@@ -1,7 +1,7 @@
 // Program to demonstrate generic ArrayList.
-package com.cg.collection;
+package com.cg.list;
 import java.util.*;
-// Duplication, order of output
+// We need to check: Order of output and if it accepts duplicates and null value.
 public class ArrayListGenericDemo {
 
 	public static void main(String[] args) {

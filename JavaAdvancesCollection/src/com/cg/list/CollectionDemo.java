@@ -1,5 +1,5 @@
 // This program is to demonstrate implementable classes from Collection: ArrayList.
-package com.cg.collection;
+package com.cg.list;
 import java.util.*;
 public class CollectionDemo {
 		// Arrays have limitations such as fixed size and homogeneous elements. 
