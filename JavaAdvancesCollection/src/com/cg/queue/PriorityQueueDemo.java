@@ -64,7 +64,7 @@ public class PriorityQueueDemo {
 			 System.out.println(tryAdvanced.tryAdvance(System.out::println)); 
 			 System.out.println("--------------------------"); 
 		 }
-		 	// forEachRemaining() method:
+		 	// forEachRemaining() method:  
 		 Spliterator<Integer> forEachR=queue.spliterator();
 		 System.out.println(forEachR.tryAdvance(MethodReference::action)); //User defined method reference that prints, Have removed the integer: `n` From the iterator.
 		 forEachR.forEachRemaining(System.out::println); // Prints remaining elements from Spliterator object.
