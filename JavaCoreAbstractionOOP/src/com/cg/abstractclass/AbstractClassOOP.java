@@ -20,7 +20,7 @@ package com.cg.abstractclass;
 // However, abstract class need to be extended and the abstract methods need to be implemented,
 	// if it can any abstract method.
 
-    abstract class AbstractClassOOP {//  only public, default(not mentioned), abstract & final are permitted
+    abstract class AbstractClassOOP {//  only public, default(not mentioned) are permitted for abstract & final  classes.
 	public AbstractClassOOP() {
 		System.out.println("Abstract class can have constructor");
 	}
@@ -33,5 +33,5 @@ package com.cg.abstractclass;
 	public static final void mThree() {
 		System.out.println("Abstract class can have final method");
 	}
-	public abstract void nFour(); // Abstract class can have abstract methods.
+	abstract void nFour(); // Abstract class can have abstract methods. // Access modifiers are all except private is accepted for abstract methods
 }

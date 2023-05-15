@@ -21,7 +21,7 @@ public class StaticMethod {
 		ForNonStaticMethod func=new ForNonStaticMethod();
 		Shapes s=new Shapes();
 		
-		System.out.println(s.Static(50, 100, func));
+		System.out.println(s.staticc(50, 100, func));
 //		Output:
 //		I am a print from non static method
 //		I am a print from another non static method

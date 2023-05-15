@@ -10,7 +10,7 @@ public class Shapes {
 	
 	// Methods of using non static data members and methods are demonstrated in he bellow
 	// static method:
-	public static String Static(int l,int h, ForNonStaticMethod obj) {
+	public static String staticc(int l,int h, ForNonStaticMethod obj) {
 		ForNonStaticMethod func=new ForNonStaticMethod();
 		func.nonStaticMethod(); // call through instance.
 		

@@ -6,6 +6,7 @@ package com.cg.abstractclass;
 // Syntax:
 	// `access modifier` abstract void `method name`();
 
+//Abstract calss
  abstract class AbstractMethod extends AbstractClassOOP { // If we dont implement all abstract methods in the extended class, we have to turn it into an abstract class too
 //	abstract void m(); ////abstract method is only allowed to be used in abstracted classes.
 	
@@ -14,6 +15,8 @@ package com.cg.abstractclass;
 	//--> one of public or protected or default(unmentioned)
 	abstract void ChildAbstractMethod();
 }
+ 
+ // concrete class
 class ExtentionOfEctendedAbstract extends AbstractMethod{
 
 	@Override

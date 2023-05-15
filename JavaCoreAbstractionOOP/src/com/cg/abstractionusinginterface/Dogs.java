@@ -1,5 +1,5 @@
 package com.cg.abstractionusinginterface;
-// Dogs abstract class
+// Dogs interface to demonstrate diamond inheritance.
 interface Dogs {
 	String[] dogNames = {"Buddy", "Max", "Bailey", "Charlie", "Lucy", "Cooper", "Sadie", "Rocky", "Molly", "Daisy", "Jack", "Lola", "Toby", "Zoe", "Chloe", "Duke", "Harley", "Maggie", "Bear", "Riley", "Roxy", "Oliver", "Gus", "Leo", "Winston", "Sam", "Sophie", "Zeus", "Ruby", "Frankie"};
  

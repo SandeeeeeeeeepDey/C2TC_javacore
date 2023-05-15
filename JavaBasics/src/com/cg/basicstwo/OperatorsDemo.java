@@ -16,7 +16,7 @@ public class OperatorsDemo {
 		// Logical Operators:
         // && (logical AND), || (logical OR) and ! (logical NOT)
 		
-		//Conditional Operator:
+		//Conditional or ternary Operator:
         //eg
 		int toCheck=34;
 		String ifIs;
