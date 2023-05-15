@@ -30,7 +30,7 @@ public class ErrorExceptionUnderstanding {
         int z = x * y + 1; // This will produce the result 11, which is not the expected result
         System.out.println("The value of z is: " + z);
     
-		// Syntactical errors:- 
+		// Syntactical errors:- // there errors however occur at compilation time.
 		int x = 5 // This will cause a syntax error and prevent the program from compiling
         System.out.println("The value of x is: " + x; // This will cause a syntax error and prevent the program from compiling
     
@@ -47,7 +47,7 @@ public class ErrorExceptionUnderstanding {
 		// Errors are defined in java.lang.Exceptions.
 				
 	// Example of exceptions:
-		int x=12/0;
+		int p=12/0;
 		System.out.println(x); // ArithmeticException 
 		
 	    

@@ -14,7 +14,7 @@ public class ArrayDequeDemo {
 		dequeue.offer(79);
 		dequeue.offer(47);
 		dequeue.offer(29);
-		dequeue.offer(45);
+		// dequeue.offer(45,1); // replace is not allowed
 		dequeue.offer(9); // duplicate value is allowed
 		// dequeue.offer(dequeue.size()-1,9);  // replace is not allowed
 		// dequeue.offer(null); // null value not allowed

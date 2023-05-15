@@ -19,7 +19,7 @@ public class ArrayListGenericDemo {
 		System.out.println(nums); // Order of output is insertion order.
 		nums.remove(null); // Remove a value
 		nums.remove(3); // When we put an integer in remove method, it take the integer to be an index value instead of value.
-		Collections.sort(nums); // Sort in ascending order.
+		Collections.sort(nums); // Sort in ascending order. // cant sort if has null in it.
 		System.out.println(nums);
 		
 		

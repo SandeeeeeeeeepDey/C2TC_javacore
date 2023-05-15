@@ -3,7 +3,7 @@ package com.cg.list;
 import java.util.*;
 public class CollectionDemo {
 		// Arrays have limitations such as fixed size and homogeneous elements. 
-		// Collection is in interface that solves this problem.
+		// Collection is an interface that solves this problem.
 	
 	public static void main(String[] args) {
 		// Collection implementable classes can have all primitive, non-primitive type data and also user defined class type inputs.

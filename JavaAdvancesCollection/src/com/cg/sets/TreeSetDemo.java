@@ -13,7 +13,7 @@ public class TreeSetDemo {
 		treeSet.add("Increment");
 		treeSet.add("EGG");
 		treeSet.add("Lettuce");
-		treeSet.add("Feast"); // does not accept double value
+		treeSet.add("Feast"); // does not accept duplicate
 		treeSet.add("Toad");
 		treeSet.add("National Security Agency");
 		treeSet.add("cake");

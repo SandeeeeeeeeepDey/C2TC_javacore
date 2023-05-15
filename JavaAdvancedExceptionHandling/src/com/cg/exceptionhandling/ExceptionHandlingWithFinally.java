@@ -1,6 +1,6 @@
 package com.cg.exceptionhandling;
 
-public class ExceptionHandlingWithFinal {
+public class ExceptionHandlingWithFinally {
 
 	static void handledFinally() {
 		try {
