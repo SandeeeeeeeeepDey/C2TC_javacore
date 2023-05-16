@@ -72,8 +72,11 @@ public class PriorityQueueDemo {
 		 System.out.println("--------------------------");
 		 	// to print the side of the iterator, we can use estimateSize():
 		 Spliterator<Integer> siztimate= queue.spliterator();
+		 System.out.println(siztimate.estimateSize()); // Shows the number of Spliterations left.
+		 System.out.println(siztimate.tryAdvance(MethodReference::action));
 		 System.out.println(siztimate.estimateSize());
-		 
+		 Spliterator<Integer> siztimateFirstHalf=siztimate.trySplit(); // splitting siztimate to half
+		 System.out.println(siztimate.estimateSize());
 		
 	}
 
