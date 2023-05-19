@@ -21,7 +21,10 @@ public class ExceptionHandling extends CommonExceptions {
 		void iOException() {
 			// When we use a file but the file is corrupted or not supported.
 			try {
-				FileReader fileOne=new FileReader("CorruptText.txt");
+				FileReader fileOne=new FileReader("C:\\Users\\acer\\Desktop\\Text file\\CorruptedFile.txt");
+				BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\acer\\Desktop\\Text file\\CorruptedFile.txt")); // got this line from the Internet, not familiar with this class yet*
+		            writer.write("Hello, World!");
+				System.out.println(fileOne);
 			} catch (Exception e) { // If we are not sure of the specific Exception class name, we can use a parent class.
 				System.out.println(e);
 			}

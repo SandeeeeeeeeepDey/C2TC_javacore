@@ -18,7 +18,7 @@ public class DefiningExceptions extends CommonExceptions {
 	@Override
 	void iOException() {
 		// When we use a file but the file is corrupted or not supported.
-		FileReader fileOne=new FileReader("CorruptText.txt");
+		FileReader fileOne=new FileReader("C:\\Users\\acer\\Desktop\\Text file\\CorruptText.txt");
 		
 	}
 	

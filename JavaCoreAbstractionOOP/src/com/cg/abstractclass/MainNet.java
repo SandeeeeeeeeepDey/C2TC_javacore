@@ -1,3 +1,4 @@
+// Driver and concrete class of Robot abstract class.
 package com.cg.abstractclass;
 
 public class MainNet extends Robot {

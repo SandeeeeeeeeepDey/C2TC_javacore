@@ -12,7 +12,7 @@ package com.cg.abstractclass;
 	
 //	private abstract void ChildAbstractMethod();
 //	The abstract method ChildAbstractMethod in type AbstractMethod can only set a visibility modifier, 
-	//--> one of public or protected or default(unmentioned)
+	//--> one of public or protected or default(unmentioned). it is so, because protected cant be overridden.
 	abstract void ChildAbstractMethod();
 }
  
