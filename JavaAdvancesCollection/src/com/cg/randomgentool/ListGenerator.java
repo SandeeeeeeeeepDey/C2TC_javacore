@@ -12,8 +12,8 @@ public class ListGenerator {
 		}
 		
 		StringGen str=new StringGen();
-		for(int i=0;i<l.list.size(); i++) {
-			System.out.println("treeSet.add(\""+((str.list.get(i)).toString())+"\");");
+		for(int i=0;i<str.list.size(); i++) {
+			System.out.println("stringCounter.put("+((l.list.get(i)))+",\""+((str.list.get(i)).toString())+"\");");
 		}
 
 		
@@ -23,7 +23,7 @@ public class ListGenerator {
 class ListGen{
 	ArrayList<Integer> list=new ArrayList<>();
 	ListGen(){
-		for(int i=0;i<10;i++)
+		for(int i=0;i<20;i++)
 			list.add((int)(Math.random()*100));	
 	}
 }
@@ -32,7 +32,7 @@ class ListGen{
 class StringGen{
 	ArrayList<String> list=new ArrayList<>();
 	StringGen(){
-		for(int i=0;i<10;i++)
+		for(int i=0;i<20;i++)
 			list.add(positiveWords[(int)(Math.random()*100)]);	
 	}
 	String[] positiveWords = {
