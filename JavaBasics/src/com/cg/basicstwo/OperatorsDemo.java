@@ -14,10 +14,10 @@ public class OperatorsDemo {
         // == (equal to), != (not equal to), > (greater than), < (less than), 
 		// >= (greater than or equal to) and <= (less than or equal to)
 		
-		// Increment and Decrement Operators
+		// Increment and Decrement Operators(++,--)
 		// for an int i, i++(post increment) or ++i(pre increment) or i--(post decrement) or --i(pre decrement).
 		// 'post' is when we first assign and then increase, 'pre'is when we increment first then assign.
-		// this operator can only be used on variables and not numbers directly.
+		// This operator can only be used on variables and not directly on numbers nor on result of an operation, like, (++i)++.
 		
 		// Logical Operators:
         // && (logical AND), || (logical OR) and ! (logical NOT)
