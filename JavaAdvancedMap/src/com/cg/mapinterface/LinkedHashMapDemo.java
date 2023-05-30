@@ -20,6 +20,7 @@ public class LinkedHashMapDemo {
 		//gradeList.put(sZero, 99.9);
 		System.out.println(gradeList);// we can see Order of output is order of insertion.
 		
+		System.out.println("--------------------------------------------------------");
 		//Iteration:
 		Spliterator spitr=gradeList.entrySet().spliterator();
 		spitr.forEachRemaining(Student::monitor);
