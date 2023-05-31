@@ -7,7 +7,9 @@ public class TreeMapDemo {
 //
 //	}
 	public static void main(String[] args) {
+		// TreeMaps sort the keys similar to TreeSets
 		SortedMap tM=new TreeMap();
+		// for non generic maps, keys must be of same type, but values can be of any type.
 		tM.put("Sorting", 44);
 		tM.put("4", "First String");
 		tM.put("5", 'd');
