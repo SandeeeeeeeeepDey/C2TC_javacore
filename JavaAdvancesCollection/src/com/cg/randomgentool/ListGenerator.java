@@ -13,7 +13,7 @@ public class ListGenerator {
 		
 		StringGen str=new StringGen();
 		for(int i=0;i<str.list.size(); i++) {
-			System.out.println("stringCounter.put("+((l.list.get(i)))+",\""+((str.list.get(i)).toString())+"\");");
+			System.out.println("nM.put("+((l.list.get(i)))+",\""+((str.list.get(i)).toString())+"\");");
 		}
 
 		
