@@ -1,4 +1,4 @@
-package com.cg.lamdaexpression;
+package com.cg.lambdaexpression;
 // To demonstrate how to use functional Interface with arguments
 
 // Functional Interface with one argument:
@@ -13,9 +13,9 @@ package com.cg.lamdaexpression;
 			float area(Float w,float h);// Two arguments
 		}
 		
-public class ArgumentedLamdaFunction {
+public class ArgumentedLambdaFunction {
 	public static void main(String[] args) {
-		// Using Lamda Expression to implement the above two Interfaces:
+		// Using lambda Expression to implement the above two Interfaces:
 		
 		//Circles:
 		Circle c=(Float f)->{System.out.println("Area of A Circle with Radius "+f+" is: "+f*f*3.14);};
