@@ -1,6 +1,6 @@
 package com.cg.mapinterface;
 import java.util.*;
-// To demonstrate TreeMaps
+// program to demonstrate TreeMaps
 public class TreeMapDemo {
 //	public static <TreeMap> void main(String[] args) {
 //		TreeMap tM=new TreeMap();
