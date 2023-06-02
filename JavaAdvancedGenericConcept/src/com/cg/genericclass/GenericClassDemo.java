@@ -22,11 +22,6 @@ public class GenericClassDemo {
 		GenericClass<Integer> gInteger=new GenericClass<>(1010101010);
 		GenericClass<Boolean> gBoolean=new GenericClass<>(true);
 		GenericClass<Float> gFloat=new GenericClass<>(73737f);
-		
-		Person p=new Person("Sandeep Dey",23);
-		p.message("What's up Homie!");
-		
-
 	}
 
 }
