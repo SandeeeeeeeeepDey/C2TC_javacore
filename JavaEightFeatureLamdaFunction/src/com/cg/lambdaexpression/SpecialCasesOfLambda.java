@@ -17,6 +17,7 @@ public class SpecialCasesOfLambda {
 		
 		// Case 2: _Threads_
 		new Thread(()->{System.out.println("Run Method Defined");}).start();
+		// This is how we can define the run() method of a Runnable object directly in the lambda expression without explicitly implementing the Runnable interface or creating a separate class.
 	}
 
 }
