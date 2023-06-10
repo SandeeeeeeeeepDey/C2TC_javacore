@@ -52,7 +52,7 @@ public class InterfaceDriver{
 // Interface cant be instantiated.
 // Interfaces cant have initializers like static blocks and constructors.
 
- interface InterfaceDriverInterface { // It is always public access and abstract by default
+ interface InterfaceDriverInterface { // implicitly: package private(needs to be public explicitly if I want to use it outside package) and abstract
 	 
 	int integer=10; // variables initiated in implicitly final and static.
 	

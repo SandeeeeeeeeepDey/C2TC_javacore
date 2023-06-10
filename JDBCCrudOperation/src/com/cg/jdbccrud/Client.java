@@ -1,5 +1,6 @@
 package com.cg.jdbccrud;
 import java.sql.*;
+
 public class Client {
 
 	public static void main(String[] args) {
@@ -11,7 +12,6 @@ public class Client {
 		try {
 			CrudOperations.showemp();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
