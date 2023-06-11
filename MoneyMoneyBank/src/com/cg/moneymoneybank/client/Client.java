@@ -18,9 +18,8 @@ public class Client {
 //----------------------------------------------------------CurrentAcc instantiation
 		CurrentAcc currentAcc=new MMCurrentAcc(0000004, "Feynman", 7F, 3F); // accBal>=creditLimi --> creditLimit=3F
 		currentAcc.withdraw(currentAcc.getAccBal()); // Lazy binding of method
-		CurrentAcc currentAccTwo=new MMCurrentAcc(0000005, "Leodardo", 7F, 6F); // accBbal<=creditLimit --> creditLimit=0F
+		CurrentAcc currentAccTwo=new MMCurrentAcc(0000005, "Leodardo", 7F, 6F); // accBal<=creditLimit --> creditLimit=0F
 		currentAccTwo.withdraw(currentAcc.getAccBal());
 
 	}
-
 }
