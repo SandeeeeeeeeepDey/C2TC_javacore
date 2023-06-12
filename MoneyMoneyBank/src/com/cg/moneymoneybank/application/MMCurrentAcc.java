@@ -8,6 +8,11 @@ public class MMCurrentAcc extends CurrentAcc {
 	public MMCurrentAcc(int accNo, String accNm, float accBal, float creditLimit) {
 		super(accNo, accNm, accBal, creditLimit);
 	}
+//--------------------------------------------------Lazy initializer method: LazycreditLimitInitializer(float)	
+	@Override
+	public float LazycreditLimitInitializer(float amount)  { // Method that decides value for CreditLimit
+		return (getAccBal()>= 2 * amount) ? amount : 0f; // creditBal is 0, until accBal is more than equal to double the creditLimit initialized.
+	}
 	
 //--------------------------------------------------withdraw()	
 	@Override
@@ -34,6 +39,8 @@ public class MMCurrentAcc extends CurrentAcc {
 		return "MMCurrentAcc [toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()="
 				+ hashCode() + "]";
 	}
+
+	
 
 
 	

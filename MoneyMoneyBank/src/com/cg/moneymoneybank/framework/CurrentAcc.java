@@ -12,10 +12,8 @@ public abstract class CurrentAcc extends BankAcc {
 		super(accNo, accNm, accBal); // super in first line.
 		this.creditLimit = LazycreditLimitInitializer(creditLimit); // lazy initialization by not directly initializing.
 	}
-	
-	public float LazycreditLimitInitializer(float amount) { // Method that decides value for CreditLimit
-		return (getAccBal()>= 2*amount)?amount:0f; // creditBal is 0 until balance is more than equal to double the creditBal initialized.
-	}
+//-----------------------------	
+	public abstract float LazycreditLimitInitializer(float amount); // Method to Lazy Initialize.
 	
 //-------------------------------------------------------withdraw()
 	@Override
