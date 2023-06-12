@@ -16,9 +16,9 @@ public class Client {
 		savingAccTwo.withdraw(savingAcc.getAccBal());
 		
 //----------------------------------------------------------CurrentAcc instantiation
-		CurrentAcc currentAcc=new MMCurrentAcc(0000004, "Feynman", 7F, 3F); // accBal>=creditLimi --> creditLimit=3F
+		CurrentAcc currentAcc=new MMCurrentAcc(0000004, "Feynman", 7F, 3F); // accBal>=2 x creditLimi --> creditLimit=3F(Using lazy initialization)
 		currentAcc.withdraw(currentAcc.getAccBal()); // Lazy binding of method
-		CurrentAcc currentAccTwo=new MMCurrentAcc(0000005, "Leodardo", 7F, 6F); // accBal<=creditLimit --> creditLimit=0F
+		CurrentAcc currentAccTwo=new MMCurrentAcc(0000005, "Leodardo", 7F, 6F); // accBal<=2 x creditLimit --> creditLimit=0F(Using lazy initialization)
 		currentAccTwo.withdraw(currentAcc.getAccBal());
 
 	}
