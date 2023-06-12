@@ -14,7 +14,7 @@ public abstract class CurrentAcc extends BankAcc {
 	}
 	
 	public float LazycreditLimitInitializer(float amount) { // Method that decides value for CreditLimit
-		return (getAccBal()>= 2*amount)?amount:0f;
+		return (getAccBal()>= 2*amount)?amount:0f; // creditBal is 0 until balance is more than equal to double the creditBal initialized.
 	}
 	
 //-------------------------------------------------------withdraw()
@@ -28,7 +28,7 @@ public abstract class CurrentAcc extends BankAcc {
 			if(withdrawalAmount<=totalBal) {
 				System.out.println("You have withdrawn: Rs"+withdrawalAmount+". Your current balance is: Rs0 and your credit balance is: Rs"+(totalBal-withdrawalAmount));
 			}else {
-				System.out.println("The requested amount is exeeding your current account balance and credit limit");
+				System.out.println("The requested amount is exceeding your current account balance and credit limit");
 			}
 			
 		}

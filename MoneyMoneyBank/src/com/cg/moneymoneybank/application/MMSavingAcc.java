@@ -18,16 +18,19 @@ public class MMSavingAcc extends SavingAcc {
 //-------------------------------------------------------withdraw()
 	@Override
 	public void withdraw(float withdrawalAmount) {
-		if(isSalaried()) {// ||getAccBal()>MINBAL
-			if(withdrawalAmount<=getAccBal()) {
-				System.out.println("You have withdrawn: Rs"+withdrawalAmount+" Your current balance is: Rs"+(getAccBal()-withdrawalAmount));
-				//setAccBal(getAccBal()-withdrawalAmount);
-			}else
+		
+		if(isSalaried()) { // If isSalaried is true MINBAL will not be considered
+			
+			if(withdrawalAmount<=getAccBal()) { // Client has enough balance
+				System.out.println("You have withdrawn: Rs"+withdrawalAmount+". Your account balance is: Rs"+(getAccBal()-withdrawalAmount));
+			}else // if isSalaried is true, but client does'nt have enough balance
 				System.out.println("Your current balance is lower than your requested withdrawal amount.");
-		}else {
-			if(withdrawalAmount<=(getAccBal()-MINBAL)) {
-				System.out.println("You have withdrawn: Rs"+withdrawalAmount+" Your current balance is: Rs"+(getAccBal()-withdrawalAmount));
-			}else
+			
+		}else {// If isSalaried is false MINBAL will be considered
+			
+			if(withdrawalAmount<=(getAccBal()-MINBAL)) { // Client withdraws amount maintaining MINBAL
+				System.out.println("You have withdrawn: Rs"+withdrawalAmount+". Your current balance is: Rs"+(getAccBal()-withdrawalAmount));
+			}else // Client request amount without maintaining MINBAL
 				System.out.println("Your requested withdrawal amount is more than allowed amount to be withdrawn.");
 		}
 	}

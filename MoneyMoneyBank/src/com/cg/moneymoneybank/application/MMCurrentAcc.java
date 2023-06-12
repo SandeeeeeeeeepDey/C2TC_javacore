@@ -3,6 +3,8 @@ import com.cg.moneymoneybank.framework.CurrentAcc;
 
 // Concrete class for CurrentAcc
 public class MMCurrentAcc extends CurrentAcc {
+	
+//--------------------------------------------------constructor()
 	public MMCurrentAcc(int accNo, String accNm, float accBal, float creditLimit) {
 		super(accNo, accNm, accBal, creditLimit);
 	}
@@ -19,7 +21,7 @@ public class MMCurrentAcc extends CurrentAcc {
 			float totalBal=getAccBal()+getCreditLimit(); // Total amount can withdraw
 			
 			if(withdrawalAmount<=totalBal) { // If can withdraw 
-				System.out.println("You have withdrawn: Rs"+withdrawalAmount+". Your current balance is: Rs0 and your credit balance is: Rs"+(totalBal-withdrawalAmount));
+				System.out.println("You have withdrawn: Rs"+withdrawalAmount+". Your current balance is: Rs"+(getAccBal()-withdrawalAmount)+" and your credit balance is: Rs"+(totalBal-withdrawalAmount));
 			}else {
 				System.out.println("The requested amount is exeeding your current account balance and credit limit");
 			}	
