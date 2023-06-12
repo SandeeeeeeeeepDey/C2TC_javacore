@@ -10,9 +10,9 @@ public class Client {
 		//bankFactory.getNewSavingAcc(0000006, "Lionel", 34f, true).withdraw(23); // Because although we can instantiate but we can't use variables of an instance if we don't store the instances.
 		
 //----------------------------------------------------------SavingAcc instantiation
-		SavingAcc savingAcc=new MMSavingAcc(0000007, "Einstine", 34F, true); // isSalary --> MINBAL=0F
+		SavingAcc savingAcc=new MMSavingAcc(0000007, "Einstine", 34F, true); // isSalary(true) --> MINBAL=0F
 		savingAcc.withdraw(savingAcc.getAccBal()); // Lazy binding of method
-		SavingAcc savingAccTwo=new MMSavingAcc(0000006, "Faraday", 34F, false); // isSalary --> MINBAL=100F
+		SavingAcc savingAccTwo=new MMSavingAcc(0000006, "Faraday", 34F, false); // isSalary(false) --> MINBAL=100F
 		savingAccTwo.withdraw(savingAcc.getAccBal());
 		
 //----------------------------------------------------------CurrentAcc instantiation
