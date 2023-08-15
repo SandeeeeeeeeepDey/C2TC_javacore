@@ -8,7 +8,7 @@ public class IdentifiersDemo {
 		// how to make classes in with right conventions in java,
 		// enabling void main option,
 		// we explored a little on the meaning of public class and
-		// public static void main. And that each project should have a main, and that class runs first.
+		// public static void main. And that each project should have a main, and the class with main method runs first.
 		// we also discussed of how parameters and arguments are different.
 		// learned the eclipse IDE syso ctrl+space shortcut, what IDE is 
 		// and the basics of java along with, how java works using jre, jdk and jvm.
@@ -30,7 +30,7 @@ public class IdentifiersDemo {
 		String firstName;
 		double hourlyRate;
 		boolean isEmployee2; // best practice is to not use numbers
-		float $percent; // best practice is to not use and characters
+		float $percent; // best practice is to not use and characters// Used to name anonymous innner classes by JAVAC
 		char _grade; // best practice is to not use characters including underscore
 		//<<----
 		//Although all the above names are accepted, 

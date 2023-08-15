@@ -3,15 +3,15 @@ package com.cg.lambdaexpression;
 
 // Functional Interface with one argument:
 	// Area of a Circle
-	interface Circle{
-		void area(Float f);// One argument
-	}
+interface Circle{
+	void area(Float f);// One argument
+}
 //-----------------------------------------------------------------	
 //Functional Interface with more than one arguments:
 	// Area of a Rectangle
-		interface Rectangle{
-			float area(Float w,float h);// Two arguments
-		}
+interface Rectangle{
+	float area(Float w,float h);// Two arguments
+}
 		
 public class ArgumentedLambdaFunction {
 	public static void main(String[] args) {

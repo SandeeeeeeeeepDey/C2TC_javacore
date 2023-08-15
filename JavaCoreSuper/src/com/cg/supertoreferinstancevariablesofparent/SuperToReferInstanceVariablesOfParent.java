@@ -2,7 +2,7 @@ package com.cg.supertoreferinstancevariablesofparent;
 
 public class SuperToReferInstanceVariablesOfParent {
 	public static void main(String[] a) {
-		// "Super" is a reference variable used to refer to properties, methods and constructors
+		// "Super" is used to refer to properties, methods and constructors
 		// of immediate parent.
 			
 		// Whenever we invoke an instance of subclass, an instance of parent class implicitly gets invoked.
